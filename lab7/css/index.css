@@ -1,0 +1,19 @@
+div#body {
+    background-color: #f0c5d7;
+    border: solid 5px #6b163a;
+    height: auto;
+}
+
+div#body> h1, h2, h3 {
+    color: #135956;
+}
+div#body> p {
+    padding: 25px;
+}
+
+div.image {
+    position: fixed;
+    top: 30px;
+    right: 100px;
+    width: 250px;
+}
