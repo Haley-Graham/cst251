@@ -1,0 +1,39 @@
+body{
+    background-color: #f0c5d7;
+}
+div#body {
+    border: solid 5px #6b163a;
+    height: auto;
+    font-family: Georgia, "serif";
+}
+
+div#body> h1, h2, h3 {
+    color: #135956;
+}
+
+div#body, p {
+    padding: 25px;
+}
+p{
+    font-size: 125%;
+}
+
+figure {
+    position: left;
+    width: 250px;
+}
+figcaption {
+  background-color: #6b163a;
+  color: white;
+  text-align: center;
+}
+
+img:hover {
+  position:relative;
+    top:-25px;
+    left:-35px;
+    width:400px;
+    height:auto;
+    display:block;
+    z-index:999;
+}
