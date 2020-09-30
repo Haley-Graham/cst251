@@ -1,0 +1,44 @@
+body{
+    font-family: "Avantgarde", "TeX Gyre Adventor", sans-serif;
+    color: #6b163a;
+    margin: 0px;
+}
+#objective {
+    background-color: #d66d9a;
+    margin: 0px;
+    padding: 10px;
+}
+#difficulties {
+    background-color: #e38ab0;
+    padding: 10px;
+}
+#results {
+    background-color: #fac3da;
+    padding: 10px;
+}
+p{
+    font-size: 125%;
+    padding: 20px;
+}
+h1, h2, h3{
+    font size: 150%;
+}
+figure {
+  position: absolute;
+    left: 1070px;
+    top: 20px;
+    z-index: 1;
+    width: 300px;
+    border: dotted 10px white;
+}
+figcaption {
+  background-color: #6b163a;
+  color: white;
+  text-align: center;
+}
+
+nav{
+  font-family: "Avantgarde", "TeX Gyre Adventor", sans-serif;
+  color: #6b163a;
+  text-align: center;
+}
