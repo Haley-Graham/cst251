@@ -1,0 +1,77 @@
+body{
+    color: white;
+    margin: 0px;
+    font-family: 'Montserrat', sans-serif;
+    align-content: center;
+    background-color:#f9cdb3;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: 1;
+}
+@keyframes example {
+  from {background-color: white;}
+  to {background-color: #f9cdb3;}
+}
+#content {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    text-align: center;
+    display: block;
+    width: 1000px;
+    height: auto;
+    background-image:
+    linear-gradient(to bottom, #c47a60, #f3bb6d);
+    border-radius: 25px;
+}
+p{
+    font-size: 100%;
+    padding: 0px 50px 5px 50px;
+}
+h1, h2, h3 {
+    color: #5b91a8;
+    font-family: 'Yellowtail', cursive;
+    font-size: 350%;
+    padding: 15px;
+    text-shadow: 2px 2px white;
+}
+h1{
+  transition-property: font-size;
+  transition-duration: 2s;
+}
+h1: hover{
+  font-size: 500%;
+
+}
+.plantfacts{
+  column-count: 2;
+}
+.plantfacts p{
+  background: url("../img/green.jpg");
+  background-size: cover;
+  background-repeat: repeat;
+  border-radius: 25px;
+}
+h4{
+  color: #5b91a8;
+  font-family: 'Yellowtail', cursive;
+  font-size: 200%;
+}
+.plantfacts img{
+  transition-property: width 2s;
+}
+.plantfacts img: hover{
+  width: 1500px;
+}
+nav{
+  position:sticky;
+  top:0;
+  font-family:"Amatic SC", "TeX Gyre Adventor", sans-serif;
+  color: black;
+  background-color: white;
+  text-align: center;
+  font-size: 150%;
+}
+nav a{
+  text-decoration: none;
+}
