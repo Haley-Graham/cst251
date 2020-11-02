@@ -1,0 +1,48 @@
+nav{
+  border: solid 5px #BC5072;
+  width: 50%;
+  float: right;
+}
+header{
+  border: solid 5px #BC5072;
+  width: 75%
+}
+aside{
+  border: solid 5px #BC5072;
+  width: 25%;
+  float: right;
+}
+main{
+  border: solid 5px #BC5072;
+  width: 75%;
+}
+footer{
+  border: solid 5px #BC5072;
+  width: 25%;
+  float: right;
+  clear: both;
+}
+img{
+  width: 300px;
+}
+h1, h2, h3{
+  color: #F7DEDE;
+  font-family: 'Yellowtail', cursive;
+  font-size: 175%;
+}
+h1{
+  font-size: 250%;
+}
+body{
+  background-color: #754646;
+  color: #F59393;
+  font-family: 'Montserrat', sans-serif;
+}
+p{
+  padding: 5px;
+}
+a{
+  text-decoration: none;
+  color: #F59393;
+  text-decoration: underline;
+}
