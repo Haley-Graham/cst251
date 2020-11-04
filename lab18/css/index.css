@@ -1,0 +1,77 @@
+@media screen and (max-width:600px){
+  nav, header, aside, main, footer {
+    width:100%;
+  }
+}
+nav{
+  border: solid 5px #BC5072;
+  display: flex;
+  max-width: 500px;
+  height: 50px;
+  flex-direction: row;
+  float: right;
+  justify-content: flex-end;
+}
+header{
+  border: solid 5px #BC5072;
+  display: flex;
+  max-width: 750px;
+  height: 150px;
+  flex-direction: row;
+  justify-content: space-around;
+}
+header img{
+  width: 150px;
+}
+aside{
+  border: solid 5px #BC5072;
+  display: flex;
+  width: 300px;
+  flex-direction: column;
+  float: right;
+}
+main{
+  border: solid 5px #BC5072;
+  display: flex;
+  flex-direction: column;
+}
+#me img{
+  width: 200px;
+  border: solid 5px #BC5072;
+}
+footer{
+  border: solid 5px #BC5072;
+  display: flex;
+  max-width: 500px;
+  flex-direction: column;
+  float: right;
+  clear:both;
+}
+#ig img{
+  width :35px;
+  float: right;
+}
+aside img{
+  width: 300px;
+}
+h1, h2, h3{
+  color: #F7DEDE;
+  font-family: 'Yellowtail', cursive;
+  font-size: 175%;
+}
+h1{
+  font-size: 250%;
+}
+body{
+  background-color: #754646;
+  color: #F59393;
+  font-family: 'Montserrat', sans-serif;
+}
+p{
+  padding: 5px;
+}
+a{
+  text-decoration: none;
+  color: #F59393;
+  text-decoration: underline;
+}
