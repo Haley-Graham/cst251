@@ -1,0 +1,33 @@
+@media screen and (max-width:600px){
+  nav, header, aside, main, footer {
+    width:100%;
+  }
+}
+h1, h2, h3{
+  color: #F7DEDE;
+  font-family: 'Yellowtail', cursive;
+  font-size: 175%;
+}
+h1{
+  font-size: 250%;
+}
+body{
+  background-color: #754646;
+  color: #F59393;
+  font-family: 'Montserrat', sans-serif;
+}
+p{
+  padding: 5px;
+}
+a{
+  text-decoration: none;
+  color: #F59393;
+  text-decoration: underline;
+}
+.images img{
+  max-width: 600px;
+  padding: 5px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
